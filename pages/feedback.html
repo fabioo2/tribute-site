@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Star Trek</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+	<link rel="stylesheet" type="text/css" href="../styles/feedback.css">	
+	<link href="../fonts/fontawesome/css/all.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../images/favicon.png">		
+</head>
+<body>
+<header>
+    <img src="../images/federation-logo.png" alt="federation logo">
+    <h1>STAR TREK: </h1>
+    <h2>The Feedback Page</h2>
+</header>	
+<nav id="nav_menu">
+    <ul>
+        <li><a href="../index.html" class="current">Home</a></li>
+        <li id="flexbox"><a href="images.html" >Images</a>
+            <ul>
+				<li><a href="images.html#captains">Captains</a></li>
+                <li><a href="images.html#aliens">Aliens</a></li>
+                <li><a href="images.html#series">Series</a>
+                    <ul>
+                        <li><a href="images.html#tos">The Original Series</a></li>
+                        <li><a href="images.html#tng">The Next Generation</a></li>
+                        <li><a href="images.html#ds9">Deep Space Nine</a></li>
+                        <li><a href="images.html#voyager">Voyager</a></li>
+                        <li><a href="images.html#enterprise">Enterprise</a></li>
+                        <li><a href="images.html#discovery">Discovery</a></li>
+                        <li><a href="images.html#picard">Picard</a></li>                    
+                    </ul>            
+                </li>
+            </ul> 
+        </li>
+        <li><a href="table.html">Tables</a></li>
+        <li><a href="feedback.html">Feedback</a>
+        </li>
+    </ul>
+</nav>
+<main>
+<aside id="left-aside">
+	<div id="image-container">
+		<figure>
+			<a href="../index.html"><i class="fas fa-home fa-8x" class="icon"></i></a>
+			<figcaption>Home</figcaption>
+		</figure>
+		<figure>
+			<a href="images.html"><i class="fas fa-images fa-8x" class="icon" ></i></a>
+			<figcaption>Images</figcaption>
+		</figure>
+		<figure>
+			<a href="table.html"><i class="fas fa-table fa-8x" class="icon" ></i></a>
+			<figcaption>Tables</figcaption>
+		</figure>
+		<figure>
+			<a href="feedback.html"><i class="far fa-comment-dots fa-8x" class="icon" ></i></a>
+			<figcaption>Feedback</figcaption>
+		</figure>                             
+	</div>
+</aside>
+    <section>
+		<h2>Feedback Form</h2>
+   		<form action="">
+   			<fieldset>
+   				<div class="text-labels">
+					<label for="fname">First Name:</label>
+					<input type="text" id="name" name="fname" required tabindex="1"><br>
+					<label for="lname">Last Name:</label>
+					<input type="text" id="name" name="lname" required tabindex="2"><br>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required tabindex="3"><br>	
+   				</div><br>
+				<label for="captains">Choose your favourite Captain (optional):</label>
+				<select name="captains" id="captains" tabindex="4">
+					<option value="" disabled selected>--  choose one  --</option>
+					<optgroup label="22nd and 23rd Century">
+						<option value="kirk">James T. Kirk</option>
+						<option value="archer">Johnathan Archer</option>
+						<option value="lorca">Gabriel Lorca</option>
+					</optgroup>
+					<optgroup label="24th Century">
+						<option value="picard">Jean-Luc Picard</option>
+						<option value="janeway">Kathryn Janeway</option>
+						<option value="sisko">Benjamin Sisko</option>
+					</optgroup>
+				</select><br>
+				<label for="series">Which series did you enjoy watching (choose any that apply)</label><br>
+				<select name="series" id="series" size="7" multiple="multiple" tabindex="5">
+					<option value="tos">The Original Series</option>
+					<option value="tng">The Next Generation</option>
+					<option value="ds9">Deep Space Nine</option>
+					<option value="voyager">Voyager</option>
+					<option value="enterprise">Enterprise</option>
+					<option value="discovery">Discovery</option>
+					<option value="picard">Picard</option>   				
+				</select><br>
+				<label for="comments">Please leave your feedback!</label><br>
+				<textarea name="comments" id="comments" cols="50" rows="7" tabindex="6"></textarea><br>
+				<button type="submit" value="submit" tabindex="7">Submit</button>
+				<button type="reset" value="reset" tabindex="8">Reset</button>   				
+   			</fieldset>
+
+   		</form>
+    </section>
+    <aside id="right-aside">
+    	<h2>Quick Survey!</h2>
+    	<form action="">
+    		<p>My Website is/was</p>
+    		<input type="checkbox" id="reason-1" name="reason-1" value="fun" tabindex="9">
+    		<label for="reason-1">Fun to visit</label><br>
+    		<input type="checkbox" id="reason-2" name="reason-2" value="well-designed" tabindex="10">
+    		<label for="reason-2">Well Designed</label><br>
+    		<input type="checkbox" id="reason-3" name="reason-3" value="good-colors" tabindex="11">
+    		<label for="reason-3">Uses good colours</label><br>
+    		<input type="checkbox" id="reason-4" name="reason-4" value="star-trek" tabindex="12">
+    		<label for="reason-4">Star Trek!</label><br><br>
+    		<p>Will you visit my Site again</p> 
+    		<input type="radio" id="yes" name="visit-again" value="yes" tabindex="13">
+    		<label for="yes">Yes</label>
+    		<input type="radio" id="no" name="visit-again" value="no" tabindex="14">
+    		<label for="no">No</label><br>
+    		<button type="submit" tabindex="15">Submit</button>   		   		    		    		
+    	</form>
+    </aside>
+</main>
+<footer id="footer">
+    <p> &copy; Fabio Kim 2020</p>
+</footer>
+</body>
+</html>
+

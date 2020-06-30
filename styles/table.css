@@ -1,0 +1,79 @@
+
+
+/* table  */
+
+table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+th {
+	font-family: TNG;
+	padding: 5px;
+	color: #0055AA;
+	margin: 0;
+	font-size: 20px;
+	border: 2px solid #0055AA;	
+	background:  #E2F8F5;
+}
+
+td {
+	font-family: Federation, Helvetica, Arial;
+	padding: 5px;
+	color: #0055AA;
+	font-weight: bold;
+	border: 2px solid #0055AA;
+	margin: 0;
+	text-align: center;
+	background:  #E2F8F5;
+	
+}
+
+/* table colors */
+.notrek {background: #B5BEC6}
+.tos {background: #C7DBE6}
+.animated {background: #ADF6B1}
+.tng {background: #E7C8DD}
+.ds9 {background: #A7BED3}
+.voyager {background: #FFCAAF}
+.enterprise {background: #DAB894}
+.discovery {background: #BFB1C1}
+.picard {background: #94D1BE}
+
+
+
+/* right aside */
+
+#right-aside {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+}
+
+#right-aside h2 {
+	font-family: TNG;
+	color: #0055AA;
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+
+/* section */
+
+
+section { 
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+section h2 {
+	align-self: center;
+	font-family: TNG;
+	color: #0055AA;
+	font-size: 35px;
+	padding-bottom: 20px;
+}

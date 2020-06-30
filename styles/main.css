@@ -1,0 +1,227 @@
+/* background image / misc */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    /*Source:  White clouds and blue skies. (n.d.). Retrieved from https://unsplash.com/photos/DbwYNr8RPbg*/
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;	
+}
+body {
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+}
+
+@font-face {
+    font-family: 'TNG';
+    src:url(../fonts/TNG.ttf);
+    src:url(../fonts/TNG.ttf) format('truetype');
+    src:url(../fonts/TNG.woff) format('woff');
+    src:url(../fonts/TNG.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Federation';
+    src:url(../fonts/Federation.ttf);
+    src:url(../fonts/Federation.ttf) format('truetype');
+    src:url(../fonts/Federation.woff) format('woff');
+    src:url(../fonts/Federation.woff2) format('woff2');
+}
+
+/* header */
+header {
+    display: block;
+    height: 200px;
+    background: #ACD9DC;
+	border: 2px solid #0055AA;
+
+}
+header img {
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;;
+    width: 200px;
+}
+
+header h1 {
+    font-family: 'TNG', Impact, Arial;
+    font-size: 80px;
+    color: #0055AA;
+    padding-top: 20px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+header h2 {
+    font-family: 'TNG', Impact, Arial;
+    font-size: 70px;
+    color:#0055AA;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-left: 360px;
+    white-space: nowrap;
+
+}
+
+/* Navigation Menu */
+nav {
+	border-left: 2px solid #0055AA;
+	border-right: 2px solid #0055AA;
+}
+
+#nav_menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    background: #E2F8F5;
+    text-align: center;
+    font-size: 25px;
+    font-family: TNG;
+    line-height: 2;
+}
+
+#nav_menu ul li {
+    flex: 1;
+}
+
+#flexbox {
+    flex: 2;
+}
+
+#nav_menu ul li:hover {
+    background: #0055AA;
+	color: #E2F8F5;
+}
+
+#nav_menu ul li:hover > a {
+	color: #E2F8F5;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    color: #0055AA;
+}
+
+#nav_menu ul ul {
+    display:none;
+    position: absolute;
+    text-align: center;
+}
+
+#nav_menu ul li:hover > ul {
+    display: block;
+    width: 250px;
+}
+
+#nav_menu ul li ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav_menu ul ul ul {
+    left: 250px;
+    top: 100px;
+}
+
+
+
+/* Main */
+main {
+    display: flex;
+
+}
+
+/* Left Aside */
+#left-aside {
+    float: left;
+    width: 250px;
+	background: #ACD9DC;
+	border: 2px solid #0055AA;
+
+}
+
+#left-aside p {
+    Font-Family: Federation, Helvetica, Arial;
+}
+
+#image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+#left-aside figcaption {
+	text-align: center;
+	font-family: Federation, Helvetica, Arial;
+	font-size: 20px;
+	font-weight: 800;
+	color: #0055AA;
+}
+
+#left-aside figure {
+	padding-bottom: 20px;
+}
+
+.fas, .far {
+	color: #E2F8F5;
+}
+
+.fas:hover, .far:hover {
+	color: #0055AA;
+}
+
+
+
+section {
+    float: left;
+    width: 750px;
+    background: #ACD9DC;
+	
+}
+
+#right-aside {
+    float: right;
+    width: 250px;
+    background: #ACD9DC;
+	border: 2px solid #0055AA;
+}
+
+/* Section */
+
+section {
+	background: #ACD9DC;
+	border-top: 2px solid #0055AA;
+	border-bottom: 2px solid #0055AA;
+
+}
+
+/* Footer */
+
+
+#footer {
+    background: #E2F8F5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-left: 2px solid #0055AA;
+	border-right: 2px solid #0055AA;
+	border-bottom: 2px solid #0055AA;	
+}
+
+#footer p {
+	color: #0055AA;
+	font-family: Federation;
+	font-weight: 800;
+	font-size: 85%;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+section {
+	padding: 20px;
+}
+
+/* right section */
+
+#right-aside {
+	padding: 20px;
+}
+
+#right-aside a {
+	color: #0055AA
+}
+
+#right-aside a:hover {
+	color: #E2F8F5;
+}
+
+/* main section */
+
+
+section h2, #right-aside h2 {
+	font-family: TNG;
+	text-align: center;
+	color: #0055AA;	
+	font-size: 35px;
+}
+
+section p, #right-aside p {
+	font-family: Federation;
+	padding: 10px;
+	color: #0055AA;
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+section ol {
+	padding-left: 50px;
+	color: #0055AA;
+	font-family: Federation;
+}
+
+
+section li {
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: bold;
+}

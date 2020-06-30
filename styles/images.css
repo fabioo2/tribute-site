@@ -1,0 +1,95 @@
+/* Image Section */
+
+
+h3 {
+	font-family: TNG, Impact, Arial;
+	color: #0055AA;
+	font-size: 35px;
+}
+
+#container-main {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-captains, .container-aliens, .container-series {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.container-captains img {
+	height: 180px;
+	width: 150px;
+	border: 2px solid #0055AA;
+	
+}
+
+.container-aliens img {
+	height: 180px;
+	width: 150px;
+	border: 2px solid #0055AA;
+}
+
+.container-series img {
+	height: 500px;
+	width: 400px;
+}
+
+.container-aliens img:hover,
+.container-captains img:hover{
+	height: 240px;
+	width: 210px;
+}
+
+.container-series img:hover {
+	height: 520px;
+	width: 420px;
+}
+
+figure {
+	text-align: center;
+	margin: 10px;
+}
+
+figcaption {
+	font-family: Federation, Helvetica, Arial;
+	color: #0055AA;
+	font-weight: bold;
+}
+
+/* Right Aside */
+
+
+#right-aside {
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#right-aside a {
+	color: #0055AA
+}
+
+#right-aside a:hover {
+	color: #E2F8F5;
+}
+
+#right-aside h3 {
+	font-family: TNG, Impact, Arial;
+	text-align: center;
+	color: #0055AA;	
+	font-size: 30px;
+}
+
+#right-aside p {
+	font-family: Federation, Helvetica, Arial;
+	padding: 10px;
+	color: #0055AA;
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: bold;
+}

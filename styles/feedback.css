@@ -1,0 +1,86 @@
+/* section, right aside */
+
+section h2, #right-aside h2 {
+	font-family: TNG, Impact, Arial;
+	color: #0055AA;	
+	text-align: center;	
+	padding-bottom: 20px;
+	font-size: 35px;
+	
+}
+
+section, #right-aside {
+	padding: 10px;
+}
+
+#right-aside form {
+	font-size: 12px;
+}
+
+/* forms */
+
+fieldset {
+	padding: 5px;
+	border-color: #0055AA;
+}
+
+section label, section input, section select, section p {
+	line-height: 2;
+	color: #0055AA;
+	font-family: Federation, Helvetica, Arial;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#right-aside label, #right-aside input, #right-aside select, #right-aside p {
+	line-height: 2;
+	color: #0055AA;
+	font-family: Federation, Helvetica, Arial;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 15px;
+}
+
+#right-aside p {
+	text-decoration: underline;
+}
+
+
+.text-labels {
+	display: inline-block;
+	width: 200px;
+	padding-bottom: 5px
+}
+
+input, select, textarea {
+	background: #E2F8F5;
+	font-size: 15px;
+}
+
+button {
+	background: #0055AA;
+	padding: 5px;
+	font-size: 15px;;
+	font-family: Federation;
+	font-weight: 800;
+	color: #E2F8F5;
+	border: none;
+	margin-top: 10px;
+}
+
+select option:focus, option::selection {
+	background: #0055AA;
+	font-weight: 800;
+}
+
+input[type=radio], input[type=checkbox] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+} 
+
+input[type=text], input[type=email] {
+	height: 15px;
+}
